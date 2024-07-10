@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 
-$prompt = 'draw a moon';
+$prompt = 'draw a sun';
 if ($prompt === '') {
     echo json_encode(['error' => 'Empty prompt!']);
     exit();
