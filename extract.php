@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 
-$prompt = $_GET['prompt'] ?? '';
+$prompt = '明月松间照，清泉石上流';
 if ($prompt === '') {
     echo json_encode(['error' => 'Empty prompt!']);
     exit();
